@@ -18,7 +18,8 @@ This example demonstrates the usage of this Terraform module with default settin
 
 ```hcl
 module "example" {
-  source = "cloudeteer/MODULE_NAME/PROVIDER"
+  # Change "module" and "provider" accordingly to match you new module
+  source = "cloudeteer/module/provider"
 
   example_variable = "example_value"
 }

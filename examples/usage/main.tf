@@ -1,5 +1,6 @@
 module "example" {
-  source = "cloudeteer/MODULE_NAME/PROVIDER"
+  # Change "module" and "provider" accordingly to match you new module
+  source = "cloudeteer/module/provider"
 
   example_variable = "example_value"
 }

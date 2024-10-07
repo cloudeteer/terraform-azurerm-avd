@@ -3,7 +3,7 @@ variable "example_variable" {
   type        = string
 
   validation {
-    condition     = length(var.example_variable) >= 3 && length(var.example_variable) <= 13
-    error_message = "Example variable must be between 3 and 13 characters"
+    condition     = length(var.example_variable) >= 3 && length(var.example_variable) <= 99
+    error_message = "Example variable must be between 3 and 99 characters"
   }
 }
